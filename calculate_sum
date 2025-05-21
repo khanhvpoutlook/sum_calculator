@@ -1,0 +1,6 @@
+def calculate_sum(numbers):
+    """Tính tổng của các số trong danh sách"""
+    total = sum(numbers)
+    print(f"Đang tính tổng: {numbers}")
+    logging.info(f"Tính tổng thành công: {total}")
+    return total
